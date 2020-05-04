@@ -1,0 +1,15 @@
+.contacts li a.twitter:hover {
+    color: #08a0e9;
+}
+
+.contacts li a.instagram:hover {
+    color: #e4405f;
+}
+
+.about-me {
+    font-weight: 100;
+}
+
+.resume-title {
+    font-size: 3rem;
+}
