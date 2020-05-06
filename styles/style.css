@@ -24,17 +24,17 @@
 }
 
 .japanese {
-    font-family: 'Osake';
+    font-family: 'Osake', sans-serif;
     font-size: 3rem;
 }
 
 ul.timeline>li>p:nth-child(odd) {
     font-weight: bold;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
 }
 
 .more>ul>li {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     list-style: none;
 }
 
@@ -82,49 +82,18 @@ main {
     width: 300px;
     display: none;
     position: fixed;
-    /* left: 50%;
-    top: 50%; */
     z-index: 9999;
-}
-
-button:focus {
-    outline: 0;
 }
 
 button {
     background: #b13001;
     color: white;
     width: 100%;
-    margin: 1em 0em;
+    margin: 1em 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow, filter 100ms;
-    -webkit-transition: -webkit-box-shadow 300ms, filter 100ms;
-    transition: -webkit-box-shadow 300ms, filter 100ms;
-    transition: box-shadow 300ms, filter 100ms;
     transition: box-shadow 300ms, -webkit-box-shadow 300ms, filter 100ms;
-}
-
-button:hover {
-    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-button:active {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
-
-button.lighten:active {
-    filter: brightness(110%);
-}
-
-button {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     font-weight: 700;
     line-height: 36px;
@@ -136,4 +105,23 @@ button {
     display: inline-block;
     vertical-align: middle;
     -webkit-tap-highlight-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+button.lighten:active {
+    filter: brightness(110%);
+}
+
+button:focus {
+    outline: 0;
 }
