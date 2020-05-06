@@ -2,20 +2,20 @@
 
 My very own personal website. Basically this is just a résumé.
 
-# About ❓
+## About ❓
 
 A résumé for an awesome rainbow warrior - RYU HOSHI! Created by [Vladislav Tochanenko](https://github.com/tochanenko).
 
-# Preview 🔎
+## Preview 🔎
 
 ![preview](img/preview.jpg)
 
-# Links 🔗
+## Links 🔗
 
 * [GitHub Pages](https://tochanenko.github.io/homepage/)
 * [Personal Website](https://tochanenko.github.io/homepage/)
 
-# Meme stuff 🎉
+## Meme stuff 🎉
 
 If client wants something, it should be implemented. Change my mind.
 
