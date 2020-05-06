@@ -26,3 +26,22 @@
 .japanese {
     font-family: 'Osake' !important;
 }
+
+ul.timeline>li>p:nth-child(odd) {
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.more>ul>li {
+    line-height: 2rem;
+    list-style: none;
+}
+
+.more>ul>li::before {
+    content: "-";
+    font-weight: bold;
+}
+
+.more>h3 {
+    margin-top: 16px;
+}
