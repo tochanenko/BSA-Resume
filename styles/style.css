@@ -13,3 +13,16 @@
 .resume-title {
     font-size: 3rem;
 }
+
+@font-face {
+    font-family: 'Osake';
+    src: url("../fonts/osake.otf") format("opentype");
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.japanese {
+    font-family: 'Osake' !important;
+}
