@@ -52,6 +52,10 @@ ul.timeline>li>p:nth-child(odd) {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 h1,
@@ -61,4 +65,8 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    background: #0004;
 }
