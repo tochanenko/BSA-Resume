@@ -24,7 +24,8 @@
 }
 
 .japanese {
-    font-family: 'Osake' !important;
+    font-family: 'Osake';
+    font-size: 3rem;
 }
 
 ul.timeline>li>p:nth-child(odd) {
@@ -55,7 +56,8 @@ body {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center right;
 }
 
 h1,
@@ -69,4 +71,9 @@ h6 {
 
 main {
     background: #0004;
+}
+
+::selection {
+    background: #b13001;
+    color: white;
 }
