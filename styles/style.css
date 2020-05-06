@@ -1,63 +1,63 @@
 .contacts li a.twitter:hover {
-    color: #08a0e9;
+  color: #08a0e9;
 }
 
 .contacts li a.instagram:hover {
-    color: #e4405f;
+  color: #e4405f;
 }
 
 .about-me {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .resume-title {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 @font-face {
-    font-family: 'Osake';
-    src: url("../fonts/osake.otf") format("opentype");
+  font-family: 'Osake';
+  src: url("../fonts/osake.otf") format("opentype");
 }
 
 .name {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .japanese {
-    font-family: 'Osake', sans-serif;
-    font-size: 3rem;
+  font-family: 'Osake', sans-serif;
+  font-size: 3rem;
 }
 
-ul.timeline>li>p:nth-child(odd) {
-    font-weight: bold;
-    margin-top: 0.5rem;
+ul.timeline > li > p:nth-child(odd) {
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 
-.more>ul>li {
-    margin-top: 0.5rem;
-    list-style: none;
+.more > ul > li {
+  margin-top: 0.5rem;
+  list-style: none;
 }
 
-.more>ul>li::before {
-    content: "-";
-    font-weight: bold;
+.more > ul > li::before {
+  content: "-";
+  font-weight: bold;
 }
 
-.more>h3 {
-    margin-top: 16px;
+.it_has_to_be_more_right_h3_you_stupid_idiot {
+  margin-top: 16px;
 }
 
 .languages img {
-    height: 3rem;
+  height: 3rem;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center right;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center right;
 }
 
 h1,
@@ -66,62 +66,62 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main {
-    background: #0004;
+  background: #0004;
 }
 
 ::selection {
-    background: #b13001;
-    color: white;
+  background: #b13001;
+  color: white;
 }
 
 .throwable-human {
-    width: 300px;
-    display: none;
-    position: fixed;
-    z-index: 9999;
+  width: 300px;
+  display: none;
+  position: fixed;
+  z-index: 9999;
 }
 
-button {
-    background: #b13001;
-    color: white;
-    width: 100%;
-    margin: 1em 0;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 300ms, -webkit-box-shadow 300ms, filter 100ms;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 36px;
-    text-transform: uppercase;
-    height: 36px;
-    padding: 0 2rem;
-    border: none;
-    border-radius: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-tap-highlight-color: transparent;
+.awwbutton {
+  background: #b13001;
+  color: white;
+  width: 100%;
+  margin: 1em 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 300ms, -webkit-box-shadow 300ms, filter 100ms;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  height: 36px;
+  padding: 0 2rem;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
 }
 
-button:hover {
-    cursor: pointer;
-    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+.awwbutton:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
 }
 
-button:active {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+.awwbutton:active {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
-button.lighten:active {
-    filter: brightness(110%);
+.awwbutton.lighten:active {
+  filter: brightness(110%);
 }
 
-button:focus {
-    outline: 0;
+.awwbutton:focus {
+  outline: 0;
 }
