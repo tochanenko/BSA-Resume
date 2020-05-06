@@ -29,11 +29,11 @@
 
 ul.timeline>li>p:nth-child(odd) {
     font-weight: bold;
-    line-height: 2rem;
+    margin-top: .5rem;
 }
 
 .more>ul>li {
-    line-height: 2rem;
+    margin-top: .5rem;
     list-style: none;
 }
 
@@ -44,8 +44,21 @@ ul.timeline>li>p:nth-child(odd) {
 
 .more>h3 {
     margin-top: 16px;
+}
 
 .languages img {
     height: 3rem;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
 }
